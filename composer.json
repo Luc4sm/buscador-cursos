@@ -1,0 +1,12 @@
+{
+    "name": "luc4sm/buscador-cursos",
+    "description": "Buscador de cursos, desenvolvido durante o curso de Composer da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lucas Monteiro",
+            "email": "lucas.silva.monteiro@hotmail.com"
+        }
+    ],
+    "require": {}
+}
