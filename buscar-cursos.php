@@ -1,12 +1,10 @@
 <?php
 
-namespace Composer\BuscadorCursos;
-
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
 
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
+use Alura\BuscadorCursos\Buscador;
 
 $client = new Client(['base_uri' => 'https://www.alura.com.br/']);
 $crawler = new Crawler();
